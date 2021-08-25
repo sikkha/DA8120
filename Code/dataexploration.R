@@ -2,9 +2,10 @@ library("memisc")
 library("ggplot2")
 library("qqplotr")
 
-setwd("/Users/Admin/Desktop/workspace/data")
+#setwd("/Users/Admin/Desktop/workspace/data")
+setwd("~/Documents/GitHub/DA8120/data")
 
-dataset <- data.frame(as.data.set(spss.system.file("exercise1.sav")))
+dataset <- data.frame(as.data.set(spss.system.file("marital status and smoking.sav")))
 
 
 summary(dataset)
